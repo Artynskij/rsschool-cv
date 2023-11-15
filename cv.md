@@ -1,1 +1,2 @@
-# Artem
+# Artem Artynskij
+## Frontend Developer
