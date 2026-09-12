@@ -1,6 +1,4 @@
 # Artem Artynskij
-## Frontend Developer
-# Иван Иванов
 
 ## Контакты
 - Email: aartynskij@mail.ru
