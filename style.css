@@ -1,1 +1,85 @@
-# style.css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  justify-content: center;   /* центрирование по горизонтали */
+}
+
+header, main, footer {
+  width: 100%;
+  max-width: 900px;
+}
+
+
+
+.wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  border-bottom: 2px solid #0366d6;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+pre {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
